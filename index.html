@@ -7,6 +7,14 @@
     <meta name="author" content="Ana Condic">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skriptni jezici</title>
+    <!-- Internal CSS -->
+    <style>
+        .drugi {
+            color: red;
+        }
+    </style>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <h1>Zadaće:</h1>
@@ -17,6 +25,13 @@
         <li>Zadaća</li>
         <li>Zadaća</li>
     </ol>
+
+    <h2>Dodavanje CSS:</h2>
+    <ul>
+        <li style="color: blue;">Inline</li>
+        <li class="drugi">Internal</li> <!-- u head -->
+        <li class="treci">External</li> <!-- novi file .css, link u head -->
+    </ul>
 
     <!-- heading elementi -->
     <h1>Naslov 1</h1>
@@ -29,7 +44,7 @@
     <!-- paragraf element -->
     <!-- break element <br> -->
     <!-- hr element -->
-    <p>Lorem ipsum dolor, sit amet consectetur <br> <hr> adipisicing elit. Dicta unde eaque odit cum eveniet non aperiam quia minus, 
+    <p draggable="true">Lorem ipsum dolor, sit amet consectetur <br> <hr> adipisicing elit. Dicta unde eaque odit cum eveniet non aperiam quia minus, 
         quod optio soluta reprehenderit illo officiis velit sequi dignissimos? Quae, magnam assumenda?
     Alias quos quibusdam adipisci ipsum vel. 
     Asperiores exercitationem ipsa sint quisquam ducimus numquam vitae consectetur dolor nisi 
@@ -56,7 +71,7 @@
 
     <!-- Liste, ul-unordered liste, ol-ordered liste, dl-definition liste -->
     <h2>Voćni desert u čaši</h2>
-    <h3>Sastojci:</h3>
+    <h3 id="naslov">Sastojci:</h3>
     <ul type="square">
         <li>230 g kreme za kremšnite</li>
         <li>500 ml hladnog mlijeka</li>
@@ -314,7 +329,7 @@
             <td>$1300</td>
         </tr>
     </table>
-    <h3>3.E Tehničar za računalstvo raspored</h3>
+    <!-- <h3>3.E Tehničar za računalstvo raspored</h3>
     <table border="1">
         <tr>
             <td rowspan="2"></td>
@@ -350,7 +365,7 @@
             <td></td>
             <td></td>
         </tr>
-    </table>
+    </table> -->
 
     
 
