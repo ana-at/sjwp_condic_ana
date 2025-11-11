@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model</title>
+    <style>
+        * { /* za sve elemente pogodit */
+            box-sizing: border-box; /* da bi ostale iste veličine koje smo zadali a promijenile su se zbog paddinga */
+        }
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div {
+            width: 300px;
+            height: 300px;
+            /* border-radius: 50%; za krug  */
+        }
+        .box {
+            background-color: cadetblue;
+            border: 5px solid black;
+            margin-bottom: 50px;
+            margin-left: 50px;
+            padding: 50px;
+            border-top: 10px solid burlywood;
+        }
+        .drugi {
+            background-color: cornflowerblue;
+            border: 5px dashed crimson;
+            margin: 80px 40px 80px 40px; /* sa dvije vrijednosti margin: 80px 40px; i radi isto kao ova što je napisana,, redoslijed upisivanja: gore desno dolje lijevo */
+        }
+    </style>
+</head>
+<body>
+    <h1>Box model</h1>
+    <div class="box">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus quasi sint amet vitae. 
+        Dolorem ea doloribus, adipisci in nam dolor minima? Minus accusamus corporis neque autem deserunt, ipsa minima hic!
+    </div>
+    <div class="drugi">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima corporis quos, sint earum suscipit, 
+        atque repudiandae totam delectus praesentium fugiat neque voluptas voluptate voluptatibus consectetur! Aperiam a est ullam id?
+        Temporibus distinctio amet natus praesentium eaque enim, unde sed ut aliquam, 
+        officia nostrum qui quibusdam soluta sit corrupti tempora ipsa numquam perspiciatis saepe exercitationem! 
+        Fugiat excepturi ad soluta aliquid accusamus?
+    </div>
+</body>
+</html>
