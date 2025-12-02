@@ -15,7 +15,7 @@ h2, p {
 
 /* selektor koji se primjenjuje na sve */
 * {
-    background-color: aquamarine;
+    background-color: white;
 }
 
 /* selektor s određenim atributom */
