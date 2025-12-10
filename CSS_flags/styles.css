@@ -1,0 +1,141 @@
+body {
+    background-color: antiquewhite;
+}
+.lcr {
+    width: 500px;
+    height: 300px;
+    background-color: #b32727;
+    position: relative;
+}
+.lpl {
+    width: 100%;
+    height: 150px;
+    background-color: #091063;
+    position: absolute;
+    top: 75px;
+}
+.lb {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    left: 200px;
+}
+.ipl {
+    width: 500px;
+    height: 300px;
+    background-color: #2a4c9c;
+    position: relative;
+}
+.ib1 {
+    height: 100%;
+    width: 80px;
+    background-color: white;
+    position: absolute;
+    left: 110px;
+}
+.ib2 {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    position: absolute;
+    top: 110px;
+}
+.ic1 {
+    width: 40px;
+    height: 100%;
+    background-color: #e01b1b;
+    position: absolute;
+    left: 130px;
+}
+.ic2 {
+    width: 100%;
+    height: 40px;
+    background-color: #e01b1b;
+    position: absolute;
+    top: 130px;
+}
+.bg {
+    width: 500px;
+    height: 300px;
+    background-color: #23878c;
+    position: relative;
+}
+.by {
+    width: 100%;
+    height: 100px;
+    background-color: #e3bc10;
+    position: absolute;
+    top: 100px;
+}
+.bb {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left:220px solid black;
+    border-top: 150px solid transparent;
+    border-bottom: 150px solid transparent;
+}
+.bc {
+    width: 450px;
+    height: 300px;
+    background-color: #b32727;
+    position: relative;
+}
+.bbi {
+    height: 100%;
+    width: 100px;
+    background-color: white;
+    position: absolute;
+}
+.bt1 {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: 100px;
+    border-left: 60px solid white;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+}
+.bt2 {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: 100px;
+    top: 60px;
+    border-left: 60px solid white;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+}
+.bt3 {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: 100px;
+    top: 120px;
+    border-left: 60px solid white;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+}
+.bt4 {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: 100px;
+    top: 180px;
+    border-left: 60px solid white;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+}
+.bt5 {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: 100px;
+    top: 240px;
+    border-left: 60px solid white;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+}
