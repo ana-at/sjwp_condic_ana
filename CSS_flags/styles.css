@@ -139,3 +139,105 @@ body {
     border-top: 30px solid transparent;
     border-bottom: 30px solid transparent;
 }
+.zvijezda {
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+    clip-path: polygon(
+        50% 0%,
+        61% 35%,
+        98% 35%,
+        68% 57%,
+        79% 91%,
+        50% 70%,
+        21% 91%,
+        32% 57%,
+        2% 35%,
+        39% 35%
+    );
+}
+.kg {
+    width: 500px;
+    height: 300px;
+    background-color: #007A5E;
+    position: relative;
+}
+.kc {
+    height: 100%;
+    width: 332px;
+    background-color: #CE1126;
+    position: absolute;
+    left: 168px;
+}
+.ky {
+    height: 100%;
+    width: 166px;
+    background-color: #FCD116;
+    position: absolute;
+    left: 334px;
+}
+.kzvi {
+    width: 80px;
+    height: 80px;
+    background-color: #FCD116;
+    clip-path: polygon(
+        50% 0%,
+        61% 35%,
+        98% 35%,
+        68% 57%,
+        79% 91%,
+        50% 70%,
+        21% 91%,
+        32% 57%,
+        2% 35%,
+        39% 35%
+    );
+    position: absolute;
+    left: 43px;
+    top: 110px;
+}
+.tc {
+    width: 500px;
+    height: 300px;
+    background-color: #CE1126;
+    position: relative;
+}
+.tbk {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+.tck {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: #CE1126;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+.tzvi {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    clip-path: polygon(
+        50% 0%,
+        61% 35%,
+        98% 35%,
+        68% 57%,
+        79% 91%,
+        50% 70%,
+        21% 91%,
+        32% 57%,
+        2% 35%,
+        39% 35%
+    );
+    transform: rotate(-20deg);
+    position: absolute;
+    left: 280px;
+    top: 110px;
+}
