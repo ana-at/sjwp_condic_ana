@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadatak 6</title>
+    <style>
+        .k {
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            border-radius: 50%;
+            border: 10px solid cornflowerblue;
+            border-top: 10px solid white;
+            margin-top: 300px;
+            margin-left: 45%;
+
+            animation-duration: 1s;
+            animation-name: vrt;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-play-state: running;
+        }
+        @keyframes vrt {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="k"></div>
+</body>
+</html>

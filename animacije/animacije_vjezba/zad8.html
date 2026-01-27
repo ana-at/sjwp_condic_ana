@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadatak 8</title>
+    <style>
+        .gy {
+            width: 150px;
+            height: 350px;
+            background-color: gray;
+            margin-top: 300px;
+            margin-left: 45%;
+            box-sizing: border-box;
+            position: relative;
+        }
+        .r {
+            width: 100px;
+            height: 100px;
+            background-color: darkred;
+            border-radius: 50%;
+            position: absolute;
+            top: 10px;
+            left: 25px;
+
+            animation-duration: 1s;
+            animation-name: crv;
+            animation-timing-function: linear;
+            animation-fill-mode: forwards;
+        }
+        .y {
+            width: 100px;
+            height: 100px;
+            background-color: darkgoldenrod;
+            border-radius: 50%;
+            position: absolute;
+            top: 120px;
+            left: 25px;
+
+            animation-duration: 1s;
+            animation-name: zut;
+            animation-delay: 1s;
+            animation-timing-function: linear;
+            animation-fill-mode: forwards;
+        }
+        .g {
+            width: 100px;
+            height: 100px;
+            background-color: darkgreen;
+            border-radius: 50%;
+            position: absolute;
+            top: 230px;
+            left: 25px;
+
+            animation-duration: 1s;
+            animation-name: zel;
+            animation-delay: 2s;
+            animation-timing-function: linear;
+            animation-fill-mode: forwards;
+        }
+        @keyframes crv {
+            100% {
+                background-color: red;
+            }
+        }
+        @keyframes zut {
+            100% {
+                background-color: yellow;
+            }
+        }
+        @keyframes zel {
+            100% {
+                background-color: green;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="gy">
+        <div class="r"></div>
+        <div class="y"></div>
+        <div class="g"></div>
+    </div>
+</body>
+</html>

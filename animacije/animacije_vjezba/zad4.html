@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadatak 4</title>
+    <style>
+        .k {
+            width: 200px;
+            height: 100px;
+            background-color: cadetblue;
+            font-size: 20px;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            box-sizing: border-box;
+            padding-top: 35px;
+            margin-top: 300px;
+            margin-left: 45%;
+
+            animation-duration: 0.5s;
+            animation-name: hov;
+            animation-timing-function: linear;
+            animation-fill-mode: forwards;
+            animation-play-state: paused;
+        }
+        .k:hover {
+            animation-play-state: running;
+        }
+        @keyframes hov {
+            100% {
+                scale: 1.4;
+                background-color: lightcoral;
+                box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.38);
+                
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="k">Ovo je kartica</div>
+</body>
+</html>
