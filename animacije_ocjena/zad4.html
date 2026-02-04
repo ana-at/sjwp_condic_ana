@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .k {
+            width: 200px;
+            height: 200px;
+            background-color: cadetblue;
+            margin: 300px;
+            animation-duration: 1s;
+            animation-name: vrt;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-play-state: paused;
+        }
+        .k:hover {
+            animation-play-state: running;
+        }
+        @keyframes vrt {
+            38% {
+                transform: rotate(90deg);
+            }
+            50% {
+                transform: rotate(90deg);
+            }
+            90% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(0deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="k"></div>
+</body>
+</html>

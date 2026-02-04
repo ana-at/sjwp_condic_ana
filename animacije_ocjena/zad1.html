@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadatak 1</title>
+    <style>
+        .lam {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin: 300px;
+            background-color: white;
+            border: 4px solid black;
+            position: relative;
+        }
+        .lam2 {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background-color: yellow;
+            opacity: 0%;
+            animation-duration: 1.5s;
+            animation-name: pali;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        @keyframes pali {
+            100% {
+                opacity: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="lam">
+        <div class="lam2"></div>
+    </div>
+</body>
+</html>
