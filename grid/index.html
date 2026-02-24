@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 3fr; /* fractional ratio, 1 je root veličina, a 2 znači da će bit duplo veći,, ravnomjerno ih raspoređuje */
+            grid-template-rows: 1fr 1fr; /* 1fr 1fr znači da će bit jednaki,,,, kolko vjrednosti staviš, tolko stupaca/redova će bit */
+            gap: 10px;
+        }
+        p {
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Grid</h1>
+    <div class="container">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolorem laudantium vitae ipsum sapiente deleniti cumque porro quam impedit repellat soluta, odit vel fuga distinctio quos blanditiis delectus officiis corrupti.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quaerat doloribus optio autem temporibus totam quae deleniti sit velit perspiciatis ipsam voluptatem voluptate libero voluptatum cumque, illo animi nulla assumenda?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum ad ratione maxime voluptatem, nobis perferendis nesciunt? Unde aperiam iusto quam, debitis nulla consequuntur illo? Porro nisi sequi quos odio iste!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam dolorem nesciunt ullam ipsa modi pariatur, officia magni magnam hic totam fugit exercitationem nam in eos aperiam architecto vel provident laudantium.</p>
+    </div>
+</body>
+</html>
