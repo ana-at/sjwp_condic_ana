@@ -28,6 +28,32 @@
       align-items: center;
       justify-content: center;
     }
+
+    .cowboy {
+      background-color: aqua;
+      /* grid-column: span 2;  kod ispod je isto što i ova linija, samo duže */
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+
+    .book {
+      background-color: orange;
+      /* grid-row: span 2;  isto kao i kod cowboy klase, 4 reda ispod su isto što i ovaj */
+      /* grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: 1;
+      grid-row-end: 3; */
+      grid-area: 1 / 3 / 3 / 4; /* rowstart, colstart, rowend, colend */
+      /* grid-area: span 2 / 2;   može i ovo*/
+    }
+
+    .astronaut {
+      background-color: darkcyan;
+      order: 1; /* svi imaju početno 0, 1 ga pošalje na kraj i onda što je veći broj to ide više na kraj */
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+
   </style>
 </head>
 
