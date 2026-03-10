@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadatak 7</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            grid-template-rows: 1fr 2fr 1fr 1fr;
+            height: 98vh;
+            gap: 30px;
+        }
+        .a {
+            background-color: gray;
+            color: white;
+            font-size: xx-large;
+            border-radius: 20px;
+            padding-left: 40px;
+            grid-column: span 2;
+        }
+        .b {
+            background-color: darkslategray;
+            color: white;
+            font-size: xx-large;
+            border-radius: 20px;
+            padding-left: 40px;
+        }
+        .c {
+            background-color: darkslategray;
+            color: white;
+            font-size: xx-large;
+            border-radius: 20px;
+            padding-left: 40px;
+        }
+        .d {
+            background-color: lightgray;
+            color: darkslategray;
+            font-size: xx-large;
+            border-radius: 20px;
+            padding-left: 40px;
+            grid-column: span 2;
+        }
+        .e {
+            background-color: gray;
+            color: white;
+            font-size: xx-large;
+            border-radius: 20px;
+            padding-left: 40px;
+            grid-column: span 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="a"><h1>Header</h1></div>
+        <div class="b"><h1>Sidebar</h1></div>
+        <div class="c">
+            <h1>Content</h1>
+            <h1>More content than we had before so this column is now quite tall.</h1>
+        </div>
+        <div class="d"><h1>Sidebar 2</h1></div>
+        <div class="e"><h1>Footer</h1></div>
+    </div>
+</body>
+</html>
