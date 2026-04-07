@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadatak</title>
+    <style>
+        .container {
+            display: grid;
+            box-sizing: border-box;
+            grid-template-columns: 2fr 1fr;
+            grid-template-rows: 1fr 2fr 1fr;
+            height: 98vh;
+            margin: 0;
+            gap: 10px;
+        }
+        .a {
+            grid-column: span 2;
+            background-color: #999;
+            font-size: xx-large;
+        }
+        .b {
+            grid-row: span 2;
+            background-color: #999;
+            font-size: xx-large;
+        }
+        .c {
+            grid-row: span 2;
+            background-color: #999;
+            font-size: xx-large;
+        }
+        @media (max-width: 480px) {
+            .a {
+                grid-column: span 2;
+            }
+            .b {
+                grid-column: span 2;
+                grid-row: span 1;
+            }
+            .c {
+                grid-column: span 2;
+                grid-row: span 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="a">A</div>
+        <div class="b">B</div>
+        <div class="c">C</div>
+    </div>
+</body>
+</html>
