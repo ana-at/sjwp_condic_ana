@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadatak 1</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        .container {
+            display: grid;
+            margin: 0;
+            height: 100vh;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+        }
+        .a {
+            background-color: red;
+            padding: 70px;
+            color: black;
+        }
+        .b {
+            background-color: orange;
+            padding: 70px;
+            color: black;
+        }
+        .c {
+            background-color: yellow;
+            padding: 70px;
+            color: black;
+        }
+        .d {
+            background-color: greenyellow;
+            padding: 70px;
+            color: black;
+        }
+        @media (max-width: 1200px) and (min-width: 481px) {
+            .container {
+                display: grid;
+                margin: 0;
+                height: 100vh;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+            }
+            .a {
+                background-color: red;
+                padding: 70px;
+                color: black;
+            }
+            .b {
+                background-color: orange;
+                padding: 70px;
+                color: black;
+            }
+            .c {
+                background-color: yellow;
+                padding: 70px;
+                color: black;
+            }
+            .d {
+                background-color: greenyellow;
+                padding: 70px;
+                color: black;
+            }
+        }
+        @media (max-width: 480px) {
+            .container {
+                display: grid;
+                margin: 0;
+                height: 100vh;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr;
+            }
+            .a {
+                background-color: red;
+                padding: 70px;
+                color: black;
+            }
+            .b {
+                background-color: orange;
+                padding: 70px;
+                color: black;
+            }
+            .c {
+                background-color: yellow;
+                padding: 70px;
+                color: black;
+            }
+            .d {
+                background-color: greenyellow;
+                padding: 70px;
+                color: black;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="a">1</div>
+        <div class="b">2</div>
+        <div class="c">3</div>
+        <div class="d">4</div>
+    </div>
+</body>
+</html>
