@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadatak 3</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 5fr 1fr;
+            height: 100vh;
+            box-sizing: border-box;
+        }
+        h2 {
+            padding-left: 47%;
+        }
+        .head {
+            background-color: red;
+            color: black;
+        }
+        .mid {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-rows: 1fr;
+        }
+        .l {
+            background-color: yellow;
+            color: black;
+        }
+        .m {
+            background-color: white;
+            color: black;
+        }
+        .r {
+            background-color: greenyellow;
+            color: black;
+        }
+        .foot {
+            background-color: lightskyblue;
+            color: black;
+        }
+        @media (min-width: 481px) and (max-width: 1200px) {
+            .container {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 4fr 1fr;
+                height: 100vh;
+                box-sizing: border-box;
+            }
+            h2 {
+                padding-left: 47%;
+            }
+            .head {
+                background-color: red;
+                color: black;
+            }
+            .mid {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+            }
+            .l {
+                background-color: yellow;
+                color: black;
+                order: 2;
+            }
+            .m {
+                background-color: white;
+                color: black;
+                grid-column: span 2;
+                order: 1;
+            }
+            .r {
+                background-color: greenyellow;
+                color: black;
+                order: 3;
+            }
+            .foot {
+                background-color: lightskyblue;
+                color: black;
+            }
+        }
+        @media (max-width: 480px) {
+            .container {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 3fr 1fr;
+                height: 100vh;
+                box-sizing: border-box;
+            }
+            h2 {
+                padding-left: 43%;
+            }
+            .head {
+                background-color: red;
+                color: black;
+            }
+            .mid {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr 1fr;
+            }
+            .l {
+                background-color: yellow;
+                color: black;
+                order: 2;
+            }
+            .m {
+                background-color: white;
+                color: black;
+                order: 1;
+            }
+            .r {
+                background-color: greenyellow;
+                color: black;
+                order: 3;
+            }
+            .foot {
+                background-color: lightskyblue;
+                color: black;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="head"><h2>Header</h2></div>
+        <div class="mid">
+            <div class="l"><h2>Left</h2></div>
+            <div class="m"><h2>Main</h2></div>
+            <div class="r"><h2>Right</h2></div>
+        </div>
+        <div class="foot"><h2>Footer</h2></div>
+    </div>
+</body>
+</html>

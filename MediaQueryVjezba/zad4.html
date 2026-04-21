@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadatak 4</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 6fr 2fr 2fr 2fr;
+            height: 100vh;
+            box-sizing: border-box;
+        }
+        h2 {
+            margin-left: 47%;
+        }
+        .head {
+            background-color: black;
+            color: white;
+        }
+        .menu {
+            background-color: red;
+            color: white;
+            grid-column: span 3;
+        }
+        .hero {
+            background-color: skyblue;
+            color: white;
+            grid-column: span 4;
+        }
+        .main {
+            background-color: darkslategray;
+            color: white;
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+        .img {
+            background-color: lightgreen;
+            color: black;
+            grid-column-start: 4;
+            grid-column-end: 5;
+        }
+        .ex {
+            background-color: green;
+            color: black;
+            grid-column-start: 4;
+            grid-column-end: 5;
+        }
+        .ban {
+            background-color: yellow;
+            color: black;
+            grid-column: span 4;
+        }
+        @media (min-width: 481px) and (max-width: 1200px) {
+            .container {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-template-rows: 1fr 4fr 4fr 2fr 2fr;
+                height: 100vh;
+                box-sizing: border-box;
+            }
+            h2 {
+                margin-left: 40%;
+            }
+            .head {
+                background-color: black;
+                color: white;
+                order: 1;
+                grid-column: span 4;
+            }
+            .menu {
+                background-color: red;
+                color: white;
+                order: 3;
+                grid-row-start: 3;
+                grid-row-end: 7;
+                grid-column-start: 1;
+                grid-column-end: 2;
+            }
+            .hero {
+                background-color: skyblue;
+                color: white;
+                order: 2;
+                grid-column: span 4;
+            }
+            .main {
+                background-color: darkslategray;
+                color: white;
+                order: 4;
+                grid-column: span 3;
+            }
+            .img {
+                background-color: lightgreen;
+                color: black;
+                order: 7;
+            }
+            .ex {
+                background-color: green;
+                color: black;
+                order: 6;
+                grid-column: span 2;
+            }
+            .ban {
+                background-color: yellow;
+                color: black;
+                order: 5;
+                grid-column: span 3;
+            }
+        }
+        @media (max-width: 480px) {
+            .container {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 0.5fr 0.5fr 2.5fr 2.5fr 1fr 1fr 1fr;
+                height: 100vh;
+                box-sizing: border-box;
+            }
+            h2 {
+                margin-left: 40%;
+            }
+            .head {
+                background-color: black;
+                color: white;
+                order: 1;
+                grid-column-start: 1;
+                grid-column-end: 2;
+            }
+            .menu {
+                background-color: red;
+                color: white;
+                order: 2;
+                grid-column-start: 1;
+                grid-column-end: 2;
+            }
+            .hero {
+                background-color: skyblue;
+                color: white;
+                order: 3;
+                grid-column-start: 1;
+                grid-column-end: 2;
+            }
+            .main {
+                background-color: darkslategray;
+                color: white;
+                order: 4;
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 4;
+                grid-row-end: 5;
+            }
+            .img {
+                background-color: lightgreen;
+                color: black;
+                order: 7;
+                grid-column-start: 1;
+                grid-column-end: 2;
+            }
+            .ex {
+                background-color: green;
+                color: black;
+                order: 6;
+                grid-column-start: 1;
+                grid-column-end: 2;
+            }
+            .ban {
+                background-color: yellow;
+                color: black;
+                order: 5;
+                grid-column-start: 1;
+                grid-column-end: 2;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="head"><h2>HEADER</h2></div>
+        <div class="menu"><h2>MENU</h2></div>
+        <div class="hero"><h2>HERO</h2></div>
+        <div class="main"><h2>MAIN</h2></div>
+        <div class="img"><h2>IMAGE</h2></div>
+        <div class="ex"><h2>EXTRA</h2></div>
+        <div class="ban"><h2>BANNER</h2></div>
+    </div>
+</body>
+</html>
