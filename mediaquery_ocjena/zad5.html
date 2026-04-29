@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadatak 5</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .container{
+            display: grid;
+            height: 100vh;
+            gap: 5px;
+            box-sizing: border-box;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+        .a{
+            background-color: red;
+            grid-column: span 3;
+        }
+        .b{
+            background-color: blue;
+        }
+        .c{
+            background-color: green;
+        }
+        .d{
+            background-color: yellow;
+        }
+        .f{
+            background-color: purple;
+        }
+        .e{
+            background-color: gray;
+        }
+        @media (max-width: 767px) {
+            .container{
+            display: grid;
+            height: 100vh;
+            gap: 5px;
+            box-sizing: border-box;
+            grid-template-columns: 1fr;
+            grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr;
+        }
+        .a{
+            background-color: red;
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+        .b{
+            background-color: blue;
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+        .c{
+            background-color: green;
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+        .d{
+            background-color: yellow;
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+        .f{
+            background-color: purple;
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+        .e{
+            background-color: gray;
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="a"></div>
+        <div class="b"></div>
+        <div class="c"></div>
+        <div class="d"></div>
+        <div class="f"></div>
+        <div class="e"></div>
+    </div>
+</body>
+</html>

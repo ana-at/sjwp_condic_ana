@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadatak 1</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .container{
+            display: grid;
+            box-sizing: border-box;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 5px;
+            height: 100vh;
+            background-color: gray;
+        }
+        .a {
+            background-color: white;
+            border-radius: 10px;
+        }
+        p{
+            margin-left: 47%;
+        }
+        @media (min-width: 768px) and (max-width: 1023px) {
+            .container{
+            display: grid;
+            box-sizing: border-box;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            gap: 5px;
+            height: 100vh;
+            background-color: gray;
+        }
+        .a {
+            background-color: white;
+            border-radius: 10px;
+        }
+        p{
+            margin-left: 47%;
+        }
+        }
+        @media (max-width: 767px) {
+            .container{
+            display: grid;
+            box-sizing: border-box;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            gap: 5px;
+            height: 100vh;
+            background-color: gray;
+        }
+        .a {
+            background-color: white;
+            border-radius: 10px;
+        }
+        p{
+            margin-left: 47%;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="a"><p>Proizvod 1</p></div>
+        <div class="a"><p>Proizvod 2</p></div>
+        <div class="a"><p>Proizvod 3</p></div>
+        <div class="a"><p>Proizvod 4</p></div>
+        <div class="a"><p>Proizvod 5</p></div>
+        <div class="a"><p>Proizvod 6</p></div>
+        <div class="a"><p>Proizvod 7</p></div>
+        <div class="a"><p>Proizvod 8</p></div>
+    </div>
+</body>
+</html>
