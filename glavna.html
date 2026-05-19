@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja osobna web stranica</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style_glavni.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Moja Osobna Web Stranica</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6"> 
+                <img src="./Slike/person.jpg" class="d-block mx-lg-auto img-fluid"
+                    alt="Bootstrap Themes" width="700" height="500" loading="lazy"> 
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Ana Čondić</h1>
+                <p class="lead">Dobra sam u programiranju te u slobodno vrijeme volim igrati igrice.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- FEATURE -->
+    <div class="container px-4 py-5" id="featured-3">
+        <h2 class="pb-2 border-bottom">Popis vještina i hobija</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div class="feature col">
+                <div
+                    class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                    </div>
+                <h3 class="fs-2 text-body-emphasis">Vještine</h3>
+                <p>Dobra sam u programiranju te vrlo dobro pričam engleski.</p> 
+            </div>
+            <div class="feature col">
+                <div
+                    class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                     </div>
+                <h3 class="fs-2 text-body-emphasis">Hobiji</h3>
+                <p>U slobodno vrijeme volim crtati ili igrati igrice.</p> 
+            </div>
+            <div class="feature col">
+                <div
+                    class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                     </div>
+                <h3 class="fs-2 text-body-emphasis">Zadaće</h3>
+                <p>Ovdje se nalazi popis svih zadaća koje sam dosad napravila.</p> 
+                    <a href="./Zadace/zadaca1.html" class="icon-link">
+                    Zadaća 1
+                    <img src="./Bootstrap_Components/Bootstrap Components/chevron-right.svg" alt="chevron-right"> </a> <br>
+                    <a href="./Zadace/zadaca2.html" class="icon-link">
+                    Zadaća 2
+                    <img src="./Bootstrap_Components/Bootstrap Components/chevron-right.svg" alt="chevron-right"> </a> <br>
+                    <a href="/Zadace/Galerija_filmova/zadaca3.html" class="icon-link">
+                    Zadaća 3
+                    <img src="./Bootstrap_Components/Bootstrap Components/chevron-right.svg" alt="chevron-right"> </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- KONTAKT FORMA -->
+    <div class="py-5 text-center"> 
+        <h1 class="h2">Kontaktirajte Nas</h1>
+    </div>
+    <div>
+        <form action="#" method="get">
+            <label for="name" class="form-label f">Unesite ime i prezime</label>
+            <input type="text" class="form-control f2" id="name">
+            <br>
+            <label for="email" class="form-label f">Unesite email</label>
+            <input type="email" class="form-control f2" id="email">
+            <br>
+            <label for="poruka" class="form-label f">Unesite poruku</label>
+            <input type="text" class="form-control f2 f3" id="poruka">
+            <br>
+            <label for="date" class="form-label f">Unesite datum</label>
+            <br>
+            <input type="date" class="form-control f2">
+            <br>
+            <br>
+    
+            <button type="button" class="btn btn-info b">Pošalji Poruku</button>
+        </form>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="col-md-4 mb-0 text-body-secondary">© 2025 Company, Inc</p> <a href="/"
+                class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+                aria-label="Bootstrap"> <svg class="bi me-2" width="40" height="32" aria-hidden="true">
+                    <use xlink:href="#bootstrap"></use>
+                </svg> </a>
+            <ul class="nav col-md-4 justify-content-end">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+            </ul>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
